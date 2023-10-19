@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: none;
+        }
+        h2 {
+            text-align: center;
+        }
+        .navi {
+            width: 100%;
+            height: 10vh;
+            background-color: #669bbc;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+        li {
+            float: left;
+            padding: 3px;
+            border: 1px solid #fdf0d5;
+            border-radius: 3px;
+            margin-right: 10px;
+            font-size: smaller;
+            background-color: #fdf0d5;
+        }
+        li:hover {
+            background-color: #D6EEEE;
+            border: 1px solid #D6EEEE;
+            border-radius: 5px;
+        }
+        .third {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .btn {
+            margin-right: 10px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .btn:hover {
+            background-color: #D6EEEE;
+        }
+        .section1 {
+            background-color: #f1faee;
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .section1 div {
+            margin: 10px;
+        }
+        .section1 img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .section2 {
+            background-color: #dde5b6;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .divflex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .divflex img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        .section2 div {
+            margin: 10px;
+        }
+        .section3 {
+            background-color: #f1faee;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .flexdiv {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .image {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .section4 {
+            background-color: #faf0ca;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .section5 {
+            background-color: #f1faee;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+
+</header>
+<nav class="navi">
+    <div class="first">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#signature">Signature</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#help">Help</a></li>
+        </ul>
+    </div>
+    <div>
+        <h1 style="color: white;">Thingyan</h1>
+    </div>
+    <div class="third">
+        <div>
+            <button class="btn btn-light">
+                <i class="bi bi-apple"></i>App Store
+            </button>
+        </div>
+        <div>
+            <button class="btn btn-light">
+                <i class="bi bi-google-play"></i>Google Play
+            </button>
+        </div>
+    </div>
+</nav>
+<main>
+    <section class="section1 p-5" id="home">
+        <div>
+            <img src="tgn1.jpg" alt="Thingyan">
+        </div>
+        <div>
+            <h2>Myanmar Thingyan Festival</h2>
+            <br>
+            <p>
+                Thingyan is the Myanmar New Year festival that usually occurs in middle of April. It is a Buddhist festival celebrated over a period of four to five days, culminating in the New Year.
+            </p>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-warning" type="button"><a href="#gallery">Gallery</a></button>
+                <button class="btn btn-warning" type="button"><a href="#signature">Read more</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="section2 p-5" id="signature">
+        <div>
+            <h2>Golden Padauk Flower</h2><br>
+            <p>
+                Golden Padauk flower are blossoming due to the first rain shower nationwide, signifying the upcoming traditional Thingyan water festival in Myanmar. The Padauk flower is well-known for its blooming period only in April when the country's traditional Thingyan water festival falls. The Padauk flowers are currently seen almost everywhere across the country.
+            </p>
+        </div>
+        <div class="divflex">
+            <div>
+                <img src="tgn2.jpg" alt="Thingyan">
+            </div>
+            <div>
+                <img src="tgn3.jpg" alt="Thingyan">
+            </div>
+            <div>
+                <img src="tgn4.jpg" alt="Thingyan">
+            </div>
+        </div>
+    </section>
+    <section class="section3 p-5" id="food">
+        <div class="flexdiv">
+            <div>
+                <h2>Mont Lone Yay Paw</h2>
+                <p>
+                    Mont Lone Yay Paw are rice balls filled with plain jaggery or palm sugar. Family members or friends gather together and make Mont Lone Yay Paw happily during the festival.
+                </p>
+            </div>
+            <div>
+                <img class="image" src="tgn5.jpg" alt="Thingyan">
+            </div>
+        </div>
+        <div class="flexdiv">
+            <div>
+                <h2>Shwe Yin Aye</h2>
+                <p>
+                    Shwe Yin Aye is another traditional dessert associated with Thingyan Festival. It is made by combining steamed sticky rice, tapioca pearls, tapioca sticks, cendol jelly noodles,coconut jelly, sugar syrup and chilled coconut milk. Shwe Yin Aye is served with ice cubes and a slice of plain bread is often added to the combination.
+                </p>
+            </div>
+            <div>
+                <img class="image" src="tgn6.jpg" alt="Thingyan">
+            </div>
+        </div>
+        <div class="flexdiv">
+            <div>
+                <h2>Burmese Sticky Rice</h2>
+                <p>
+                    Burmese sticky rice is a glutinous rice-based savory snack, and a seasonal festive delicacy in Myanmar. This is said to be the most favorite meal of Myanmar People.
+                </p>
+            </div>
+            <div>
+                <img class="image" src="tgn7.jpg" alt="Thingyan">
+            </div>
+        </div>
+        <div class="flexdiv">
+            <div>
+                <h2>Thingyan Rice</h2>
+                <p>
+                    Thingyan rice is infused with water and commonly served with a salad of cured salted fish, which is blanched and fried with onions, along with sour mango or marian plum.
+                </p>
+            </div>
+            <div>
+                <img class="image" src="tgn8.jpg" alt="Thingyan">
+            </div>
+        </div>
+    </section>
+    <section class="section4" id="gallery">
+        <h2>Ways of Celebration</h2>
+        <div class="flexdiv">
+            <div>
+                <img class="image" src="tgn9.jpg" alt="Thingyan">
+            </div>
+            <div>
+                <img class="image" src="tgn10.jpg" alt="Thingyan">
+            </div>
+            <div>
+                <img class="image" src="tgn11.jpg" alt="Thingyan">
+            </div>
+        </div>
+        <div class="flexdiv">
+            <div>
+                <img class="image" src="tgn12.jpg" alt="Thingyan">
+            </div>
+            <div>
+                <img class="image" src="tgn13.jpg" alt="Thingyan">
+            </div>
+            <div>
+                <img class="image" src="tgn14.jpg" alt="Thingyan">
+            </div>
+        </div>
+    </section>
+    <section class="section5">
+        <div class="w-25 p-3 mt-5">
+            <div class="mb-2">
+                <p class="h5">Leave a comment here</p>
+            </div>
+            <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-1">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="w-25 p-3 mt-5">
+            <div class="mb-2">
+                <p class="h5">Follow us on:</p>
+            </div>
+            <div class="mb-2">
+                <i class="bi bi-facebook me-2" style="font-size: 40px; color: #3b5998;"></i>
+                <i class="bi bi-instagram me-2" style="font-size: 40px; color: darkorange"></i>
+                <i class="bi bi-twitter me-2" style="font-size: 40px; color: #00acee;"></i>
+                <i class="bi bi-linkedin me-2" style="font-size: 40px; color: #0072b1;"></i>
+            </div>
+        </div>
+
+    </section>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
